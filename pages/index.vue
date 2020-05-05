@@ -8,7 +8,7 @@
 </template>
 <script>
 
-import about from '../components/about.vue'
+import about from '../components/About.vue'
 import Faqs from '../components/Faqs.vue'
 import Features from '../components/Features.vue'
 import Hero from '../components/Hero.vue'
