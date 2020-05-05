@@ -1,0 +1,59 @@
+:root {
+
+  /* Borders */
+  --border-radius: 0rem;
+  --drop-shadow: 0 .2rem 1rem hsla(231, 69%, 60%, .2);
+  --default-border-color: #dfdfdf;
+
+  /* Colors */
+  --soft-red: #f40057;
+  --greyish-blue: hsl(229, 8%, 60%);
+  --very-dark-blue: hsl(229, 31%, 21%);
+  --dark-grey-text: hsla(229, 31%, 21%, .6);
+  --white: hsla(360, 100%, 100%, 1);
+
+  /* Font sizes */
+  --font-size-default: 1.6rem;
+  --font-size-md: 2.3rem;
+  --font-size-lg: 3rem;
+
+}
+
+html {
+  background-color: var(--white);
+  font-family: 'Rubik', sans-serif;
+  font-size: 62.5%;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: var(--very-dark-blue);
+  font-weight: 500;
+}
+
+p {
+  color: var(--dark-grey-text);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+button {
+  appearance: none;
+  cursor: pointer;  
+  border: 10;
+  border-color: white;
+}
+

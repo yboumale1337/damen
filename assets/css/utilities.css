@@ -1,0 +1,22 @@
+.nav-bars {
+  border-bottom: 1px solid;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bars li {
+  border-top: 1px solid;
+  position: relative;
+}
+
+.nav-bars a,
+.nav-bars button {
+  display: block;
+  font: 500 1.6rem 'Rubik', sans-serif;
+  line-height: 5.7rem;
+  outline: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
