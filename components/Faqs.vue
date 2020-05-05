@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import ButtonLink from '~/components/ButtonLink.vue'
-import SectionHeader from '~/components/SectionHeader.vue'
+import ButtonLink from './ButtonLink.vue'
+import SectionHeader from './SectionHeader.vue'
 export default {
   components: { ButtonLink, SectionHeader },
   data () {

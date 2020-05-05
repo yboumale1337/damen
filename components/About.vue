@@ -4,7 +4,7 @@
     <div class="cards">
       <div v-for="card in about" :key="card.id" class="card">
         <div class="card-content">
-          <img width="170" :src="require('~/assets/images/' + card.image)" alt="">
+          <img width="170" :src="require('../assets/images/' + card.image)" alt="">
           <h3>{{ card.title }}</h3>
         </div>
         <div class="card-footer">
@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import ButtonLink from '~/components/ButtonLink.vue'
-import SectionHeader from '~/components/SectionHeader.vue'
+import ButtonLink from './ButtonLink.vue'
+import SectionHeader from './SectionHeader.vue'
 export default {
   components: { ButtonLink, SectionHeader },
   data () {

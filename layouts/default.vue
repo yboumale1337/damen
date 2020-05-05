@@ -2,7 +2,7 @@
   <div>
     <nav v-if="activeMenu" class="mobile-nav">
       <div class="mobile-nav__header" aria-hidde="true">
-        <img width="148" height="60" src="~/assets/images/Asset.svg" alt="">
+        <img width="148" height="60" src="../assets/images/Asset.svg" alt="">
         <button @click="toggleMenu()" aria-label="Menu toggle button">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15"><path fill="#FFF" fill-rule="evenodd" d="M8 5.379L13.303.075l2.122 2.122L10.12 7.5l5.304 5.303-2.122 2.122L8 9.62l-5.303 5.304-2.122-2.122L5.88 7.5.575 2.197 2.697.075 8 5.38z" /></svg>
         </button>
@@ -15,12 +15,12 @@
       <button-link buttonClass="clear">Join Now!</button-link>
       <ul class="social-links">
         <li v-for="link in socialMediaLinks" :key="link.id">
-          <img :src="require('~/assets/images/' + link.image)" :alt="link.id">
+          <img :src="require('../assets/images/' + link.image)" :alt="link.id">
         </li>
       </ul>
     </nav>
     <header>
-     <img width="148" height="60" src="~/assets/images/Asset.svg" alt="">
+     <img width="148" height="60" src="../assets/images/Asset.svg" alt="">
       <button @click="toggleMenu()" aria-hidden="true">
         <svg xmlns="http://www.w3.org/2000/svg"><path fill="#242A45" fill-rule="evenodd" d="M0 0h18v3H0V0zm0 6h18v3H0V6zm0 6h18v3H0v-3z" /></svg>
       </button>
@@ -39,7 +39,7 @@
     <email-signup />
     <footer>
       <div class="footer-wrapper">
-        <img width="148" height="60" src="~/assets/images/footerlogo.svg" alt="">
+        <img width="148" height="60" src="../assets/images/footerlogo.svg" alt="">
         <nav>
           <ul class="site-links">
             <li v-for="link in navLinks" :key="link.slug">
@@ -49,7 +49,7 @@
 
           <ul class="social-links">
             <li v-for="link in socialMediaLinks" :key="link.id">
-              <img :src="require('~/assets/images/' + link.image)" :alt="link.id">
+              <img :src="require('../assets/images/' + link.image)" :alt="link.id">
             </li>
           </ul>
         </nav>
@@ -59,8 +59,8 @@
   </div>
 </template>
 <script>
-import ButtonLink from '~/components/ButtonLink.vue'
-import EmailSignup from '~/components/EmailSignup.vue'
+import ButtonLink from '../components/ButtonLink.vue'
+import EmailSignup from '../components/EmailSignup.vue'
 export default {
   components: {ButtonLink, EmailSignup},
   data () {

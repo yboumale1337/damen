@@ -1,7 +1,7 @@
 <template>
   <section class="hero">
     <div class="hero-img">
-      <img src="~/assets/images/illustration-hero.svg" alt="">
+      <img src="../assets/images/illustration-hero.svg" alt="">
     </div>
     <div class="hero-content">
       <h1>Dream of finding love</h1>
@@ -11,7 +11,7 @@
   </section>
 </template>
 <script>
-import ButtonLink from '~/components/ButtonLink.vue'
+import ButtonLink from './ButtonLink.vue'
 export default {
   components: {
     ButtonLink

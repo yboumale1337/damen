@@ -26,11 +26,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['~/assets/css/baseline.css', '~/assets/css/utilities.css'],
+  css: ['./assets/css/baseline.css', './assets/css/utilities.css'],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/vuelidate.js'],
+  plugins: ['./plugins/vuelidate.js'],
   /*
    ** Nuxt.js dev-modules
    */

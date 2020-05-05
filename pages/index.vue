@@ -8,10 +8,10 @@
 </template>
 <script>
 
-import about from '~/components/about.vue'
-import Faqs from '~/components/Faqs.vue'
-import Features from '~/components/Features.vue'
-import Hero from '~/components/Hero.vue'
+import about from '../components/about.vue'
+import Faqs from '../components/Faqs.vue'
+import Features from '../components/Features.vue'
+import Hero from '../components/Hero.vue'
 export default {
   components: {about, Faqs, Features, Hero }
 }

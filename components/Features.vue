@@ -11,7 +11,7 @@
     <div v-for="(slide, index) in featuredItems" :key="slide.id" class="slide">
       <template v-if="index == currentSlide">
         <div class="feature-image" :class="'slide-' + index">
-          <img :src="require('~/assets/images/' + slide.image)" alt="">
+          <img :src="require('../assets/images/' + slide.image)" alt="">
           <!-- <div aria-hidden="true" class="treatment"></div> -->
         </div>
         <div class="feature-content">
@@ -24,8 +24,8 @@
 </template>
 
 <script>
-import ButtonLink from '~/components/ButtonLink.vue'
-import SectionHeader from '~/components/SectionHeader.vue'
+import ButtonLink from './ButtonLink.vue'
+import SectionHeader from './SectionHeader.vue'
 
 export default {
   components: { ButtonLink, SectionHeader },
